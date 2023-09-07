@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Project</title>
+
+    <!--Montsarrate google font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+
+     <!--leaflet css file-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+    <!--Material Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+    <!--bootstrap css file-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"> 
+
+    <!--Favicon-->
+    <link rel="icon" href="favicon.ico">
+     <!--Custom css file-->
+     <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <!--Bootstrap layout-->
+    <div class=" container-fluid px-0" bg-black>
+        <!--Navbar-->
+        <nav class="navbar navbar-default navbar-fixed-top navbar-expand-lg navbar-light shadow">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold" href="/" >
+                    <img src="images/logo1.jpg" alt="brand" width="45" height="20">
+                    Sebasam Royals 
+                </a>
+                <buton
+                type="button"
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSuportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </buton>
+                <div class="container px-3">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto me-4 my-lg-0 fw-bold">
+                          <li class="nav-item">
+                            <a class="nav-link me-lg-3" href="#home">Home</a></li>
+                            <li class="nav-item">
+                              <a class="nav-link me-lg-3" href="#about">About</a></li>
+                            <li class="nav-item">
+                              <a class="nav-link me-lg-3" href="#services">Services</a></li>
+                            <li class="nav-item">
+                              <a class="nav-link me-lg-3" href="#portfolio">Portfolio</a></li>
+                            <li class="nav-item">
+                              <a class="nav-link me-lg-3" href="#hire">Hire</a></li>
+                            <li class="nav-item">
+                              <a class="nav-link me-lg-3" href="#blog">Blog</a></li>
+                            <li class="nav-item">
+                              <a class="nav-link me-lg-3" href="#contact">Contact</a></li>
+                        </ul>
+                      </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+     <!--End of Navbar-->
+      <!--============================================================Header Section===========================================================================-->
+      <header class="bg-light py-5">
+        <div class="container px-5">
+            <div class="row align-items-center">
+                <div class="col-lg-8 col-xl-7 col-xxl-6">
+                    <div class="my-5">
+                        <h2 class="text-center fw-bold mb-2">Hi! We are Sebasam Royals,</h2>
+                        <h2 class="text-primary text-center fw-bold mb-2">Full-Stack Web Developers</h2>
+                        <p class="lead text-muted text-justify mb-4">
+                            <strong> <em>As <strong> full-stack  developers we’re the backbone of any web development.</strong> We have the skills and knowledge to work on both the front-end and the back-end of a website, ensuring that the user interface, functionality, and data are seamlessly integrated.</em></strong></p>
+                        <div class="d-grid gap-3 d-sm-flex justify-content-center">
+                            <a class="btn btn-primary btn-large text-uppercase" href="#about">Learn More
+                            <span class="material-icons-outlined">help_outline</span>
+                            </a>
+                            <a class="btn btn-outline-primary btn-large text-uppercase" href="#services">View Our Services
+                                <span class="material-icons-outlined">manage_search</span>
+                                </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-xxl-6 justify-content-center">
+                    <img class="img-fluid rounded-3 my-5" src="images/dev_1.jpg" alt="developers">
+                </div>
+            </div>
+        </div>
+      </header>
+
+      <!--===========================================================================About Section======================================================================-->
+      <section id="about" class="text-center py-5">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <h2 class="fw-bold">About Us</h2>
+                <p class="lead text-muted mb-5">
+                  Our journey will be marked by innovation, design excellence, and a relentless pursuit of excellence. With a team of dedicated professionals, each bringing their unique skills and perspectives to the table, we're committed to building a website that not only looks stunning but also functions flawlessly, ensuring a user-friendly experience that resonates with your audience.</p>
+            </div>
+        </div>
+        <div class="container mb-5">
+            <div class="row">
+                <div class="col-lg-4 mx-auto mb-5">
+                    <div class="d-sm-flex mb-5 about">
+                        <span class="material-icons-outlined  m-auto text-primary">code</span>
+                        <div class="text-center">
+                        </div>
+                    </div>
+                    <h5>Lead Developer Mr. Uweh </h5>
+                    <p class="text-muted mb-0">I’m Uweh Bariduanen, a dynamic individual with a diverse range of talents and a passion for technology. I’ve achieved significant milestones in my tech career and continue to strive for excellence in various fields. Having graduated with a degree in Computer Science, I possess a strong foundation in the world of computing. Continuing his pursuit of knowledge and growth, I’m currently studying Software Engineering at Holberton School..</p>
+                </div>
+                <div class="col-lg-4 mx-auto mb-5">
+                    <div class="d-sm-flex mb-5 about">
+                        <span class="material-icons-outlined m-auto text-primary">palette</span>
+                    </div>
+                    <h5>Frontend Dev. Mr Jude</h5>
+                    <p class="text-muted mb-0">Mr Jude is a frontend developer with over two years of experience in designing and developing user interfaces for web applications. I'm is skilled in HTML, CSS, JavaScript and React, as well as UI/UX principles and best practices. I'm creative, detail-oriented and user-focused. I've worked on projects such as online learning platforms, news websites and gaming portals. I’m currently studying Software Engineering at Holberton School..</p>
+                </div>
+                <div class="col-lg-4 mx-auto mb-5">
+                    <div class="d-sm-flex mb-5 about">
+                        <span class="material-icons-outlined  m-auto text-primary">terminal</span>
+                    </div>
+                    <h5>Backend Mr. Sampson</h5>
+                    <p class="text-muted mb-0">Mr Sampson is a backend developer with over 2 years of experience in creating and maintaining web applications. I am proficient in various programming languages, frameworks and databases, such as Python, Django, MongoDB and SQL. I'm is passionate about delivering high-quality code, optimizing performance and ensuring security. I’m currently studying Software Engineering at Holberton School..</p>
+                </div>
+            </div>
+        </div>
+      </section>
+     
+       <!--============================================================End of About Section===========================================================================-->
+        <hr>
+
+       <!--================================================================Project Section=======================================================================-->
+       <section id="projects" class="text-center bg-light py-5">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <h2 class="fw-bold">Our Projects</h2>
+                <p class="lead text-muted mb-5">
+                    This project is a testament to the power of collaboration, where diverse talents come together to transform ideas into a tangible, user-centric digital experience. Whether you're looking to launch a new business website, revamp an existing one, or explore new possibilities on the web, our project aims to deliver a solution that aligns seamlessly with your vision and goals.
+
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mx-auto mb-5">
+                    <div class="card h-100 shadow-lg border-0 bg-light">
+                        <img class="card-img-top" src="images/DSC_0063.JPG" alt="Project 1">
+                        <div class="card-body p-4">
+                        <h5 class="card-title mb-3">System Engineering DevOps</h5>
+                        <div class="mb-2">
+                            <div class="badge bg-primary rounded-pill">Django"</div>
+                            <div class="badge bg-primary rounded-pill">React</div>
+                            <div class="badge bg-primary rounded-pill">UX Design</div>
+                        </div>
+                        <p class="card-text">
+                          DevOps is a software engineering practice that aims to unify software development (Dev) and software operations (Ops). The main goal of DevOps is to shorten the development life cycle while delivering high-quality software that meets business objectives. </p>
+                    </div>
+                    <div class="card-footer bg-transparent mb-3">
+                        <a
+                        class="btn btn-outline-primary btn-sm text-uppercase"
+                        href="https://github.com/uwehbaridu"
+                        target="_blank">
+                        <span class="material-icons-outlined  m-auto text-primary">code</span>
+                        Source Code
+                        </a>
+                    </div>
+                </div>
+                </div>
+                <div class="col-lg-4 mx-auto mb-5">
+                    <div class="card h-100 shadow-lg border-0 bg-light">
+                        <img class="card-img-top" src="images/Jude 2.jpg" alt="Project 1">
+                        <div class="card-body p-4">
+                        <h5 class="card-title mb-3">API</h5>
+                        <div class="mb-2">
+                            <div class="badge bg-primary rounded-pill">Javascript"</div>
+                            <div class="badge bg-primary rounded-pill">Python</div>
+                            <div class="badge bg-primary rounded-pill">Bootstrap</div>
+                        </div>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                    <div class="card-footer bg-transparent mb-3">
+                        <a
+                        class="btn btn-outline-primary btn-sm text-uppercase"
+                        href="https://github.com/uwehbaridu"
+                        target="_blank">
+                        <span class="material-icons-outlined  m-auto text-primary">code</span>
+                        Source Code
+                        </a>
+                    </div>
+                </div>
+                </div>
+                <div class="col-lg-4 mx-auto mb-5">
+                    <div class="card h-100 shadow-lg border-0 bg-light">
+                        <img class="card-img-top" src="images/Sampson.png" alt="Project 1">
+                        <div class="card-body p-4">
+                        <h5 class="card-title mb-3">Web 3 App.</h5>
+                        <div class="mb-2">
+                            <div class="badge bg-primary rounded-pill">Flasks"</div>
+                            <div class="badge bg-primary rounded-pill">Web 3</div>
+                            <div class="badge bg-primary rounded-pill">MongoDB</div>
+                        </div>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                    <div class="card-footer bg-transparent mb-3">
+                        <a
+                        class="btn btn-outline-primary btn-sm text-uppercase"
+                        href="https://github.com/uwehbaridu"
+                        target="_blank">
+                        <span class="material-icons-outlined  m-auto text-primary">code</span>
+                        Source Code
+                        </a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+       </section>
+ <!--================================================================End of Project Section=======================================================================-->
+ <div class="container-fluid px-5">
+    <div class="row justify-content-center">
+      <div class="col-xl-10">
+        <div class="card border-0 rounded-3 shadow-lg overflow-hidden">
+          <div class="card-body p-0">
+            <div class="row g-0">
+              <div class="col-sm-6 d-none d-sm-block bg-image"></div>
+              <div class="col-sm-6 p-4">
+                <div class="text-center">
+                  <div class="h3 fw-light">Contact Form</div>
+                  <p class="mb-4 text-muted">We will get back to you</p>
+                </div>
+  
+                <!-- * * * * * * * * * * * * * *
+            // * * SB Forms Contact Form * *
+            // * * * * * * * * * * * * * * *
+  
+            // This form is pre-integrated with SB Forms.
+            // To make this form functional, sign up at
+            // https://startbootstrap.com/solution/contact-forms
+            // to get an API token!
+            -->
+  
+                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+  
+                  <!-- Name Input -->
+                  <div class="form-floating mb-3">
+                    <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
+                    <label for="name">Name</label>
+                    <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
+                  </div>
+  
+                  <!-- Email Input -->
+                  <div class="form-floating mb-3">
+                    <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required,email" />
+                    <label for="emailAddress">Email Address</label>
+                    <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
+                    <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
+                  </div>
+  
+                  <!-- Message Input -->
+                  <div class="form-floating mb-3">
+                    <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
+                    <label for="message">Message</label>
+                    <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
+                  </div>
+  
+                  <!-- Submit success message -->
+                  <div class="d-none" id="submitSuccessMessage">
+                    <div class="text-center mb-3">
+                      <div class="fw-bolder">Form submission successful!</div>
+                      <p>To activate this form, sign up at</p>
+                      <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                    </div>
+                  </div>
+  
+                  <!-- Submit error message -->
+                  <div class="d-none" id="submitErrorMessage">
+                    <div class="text-center text-danger mb-3">Error sending message!</div>
+                  </div>
+  
+                  <!-- Submit button -->
+                  <div class="d-grid">
+                    <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button>
+                  </div>
+                </form>
+                <!-- End of contact form -->
+  
+              </div>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--================================================================Contact Section=======================================================================-->
+
+<!--================================================================End of Contact Section=======================================================================-->
+
+
+<!--====================================Footer Section====================================================-->
+<div class="b-example-divider"></div>
+<footer class="text-center py-5 bg-black text-muted">
+  <div class="container">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Our Services</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Hire Now</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Blog</a></li>
+    </ul>
+    <p class="text-center text-body-secondary">&copy; 2023 Sebasam Royals</p>
+</div>
+
+</footer>
+  <!--==========================================================Scripts==========================================================================-->
+  <!-- End of .container -->
+
+<!--leaflets js file-->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<!--bootstrap js file-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+ 
+</body>
+</html>
