@@ -14,6 +14,11 @@ Bootstrap
 jQuery
 Html
 
+Aurthors
+Uweh Bariduanen
+Jude Ekanem
+Sampson Nsikak
+
 
 ![image](https://github.com/Uwehbaridu/portfolio_landing_Page/assets/114431610/af69e179-7828-4c61-a4d9-4b5960be1369)
 
