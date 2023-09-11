@@ -2,7 +2,7 @@
 
 Project Inspiration
 
-The project is inspired by the recent fraudulent activity that has wrecked many, people buy cars from online vendors and get scammed, so it dawned on us to take up this project so as to do the following :
+The project is inspired by the recent fraudulent activity that has wrecked many individuals, people buy cars from online vendors and get scammed, so it dawned on us to take up this project so as to do the following :
 
 Help companies advertise their car brands.
 Help customers select the car of their choice for hiring or purchase.
